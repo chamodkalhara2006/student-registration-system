@@ -1,0 +1,124 @@
+/* styles.css */
+
+/* Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #007bff;
+    color: #ffffff;
+    display: flex;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    text-decoration: none;
+    margin-left: 470px;
+}
+
+/* Container Styles */
+.container {
+    margin-top: 50px;
+}
+
+/* Card Styles */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: s;
+    display: grid;
+place-items: center;
+padding-left: 480px;
+}
+
+.card-img-top {
+    border-radius: 10%;
+    display: grid;
+place-items: center;
+
+    
+}
+
+.card-body {
+    text-align: center;
+    display: grid;
+place-items: center;
+padding-top: 30px;
+
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.label {
+    color: #495057;
+}
+
+.help-block {
+    color: #dc3545;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #343a40;
+    font-weight: bold;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+.card-footer {
+    text-align: center;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.card-footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-footer a:hover {
+    text-decoration: none;
+}
+
+
+.navbar-nav li {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+.btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
